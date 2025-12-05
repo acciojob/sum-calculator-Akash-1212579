@@ -10,10 +10,11 @@ export default function SumCalculator ()
     return(
        
        <>
+       <h1>Sum Calculator</h1>
        <input type="number" onChange={(e)=>{
         setInputNum(e.target.value);
        }}/>
-        <h1>Sum : {sum}</h1>
+        <p>Sum : {sum}</p>
        </>
        
     )
