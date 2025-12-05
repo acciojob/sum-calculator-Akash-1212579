@@ -14,7 +14,7 @@ export default function SumCalculator ()
        <input type="number" onChange={(e)=>{
         setInputNum(e.target.value);
        }}/>
-        <p>Sum : {sum}</p>
+        <p>Sum: {sum}</p>
        </>
        
     )
